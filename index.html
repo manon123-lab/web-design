@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    
+    <!-- FontAwesome (For Social Media Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- 🔹 Navigation Bar (Sticky) -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Madhavan Siva</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 🔹 Home Section -->
+    <section id="home" class="d-flex align-items-center">
+        <div class="container text-center text-light">
+            <div class="row">
+                <div class="col-lg-6 text-start">
+                    <h1 class="display-4">I'm <span class="typing-text"></span></h1>
+                    <p class="lead">Innovative and tech-savvy developer with expertise in AI, deep learning, and full-stack development. A fast learner, problem solver, and team leader with a passion for cutting-edge technology.</p>
+                    
+                    <!-- Social Media Icons -->
+                    <div class="social-icons mt-4">
+                        <a href="https://www.linkedin.com/in/madhavansiva/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Speed00j7" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:madhavansiva27@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="images/Madhavan.jpg" class="profile-img" alt="My Photo">
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- 🔥 About Me Section -->
+<section id="about" class="about-me">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+            <!-- Profile Image -->
+            <div class="about-image">
+                <img src="images/Madhavan.jpg" alt="Profile Image">
+            </div>
+
+            <!-- About Me Text -->
+            <div class="about-text">
+                <p class="intro">
+                    I am a tech enthusiast with expertise in AI, deep learning, and full-stack development. Passionate about solving real-world problems, I love creating AI-driven applications that make an impact. I constantly explore new technologies to enhance my skills and stay ahead in the field.
+                </p>
+
+                <p class="extra-info">
+                    Beyond coding, I enjoy participating in hackathons, exploring cutting-edge advancements, and contributing to open-source projects. My curiosity and dedication drive me to push the boundaries of innovation in AI and software development.
+                </p>
+
+                <!-- Technical Skills Section -->
+                <div class="skills-container">
+                    <h3>Technical Skills</h3>
+                    <div class="skills">
+                        <div class="skill"><i class="fab fa-python"></i> Python </div>
+                        <div class="skill"><i class="fab fa-js"></i> JavaScript </div>
+                        <div class="skill"><i class="fas fa-mobile-alt"></i> Dart </div>
+                        <div class="skill"><i class="fab fa-java"></i> Java </div>
+                        <div class="skill"><i class="fas fa-cogs"></i> C  </div>
+                        <div class="skill"><i class="fas fa-database"></i> SQL </div>
+                        <div class="skill"><i class="fas fa-code"></i> HTML & CSS</div>
+                    </div>
+                </div>
+                <!-- Hobbies & Interests -->
+                <div class="hobbies-container">
+                    <h3>Hobbies & Interests</h3>
+                    <p>💡 Coding | 🎮 Gaming | 📖 Reading Tech Blogs | 🚀 Participating in Hackathons | 🎨 UI/UX Designing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 🔥 Skills Page -->
+<section id="skills" class="skills-section">
+    <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+
+        <!-- Scrolling Skills Wrapper -->
+        <div class="skills-slider">
+            <div class="skills-track">
+                <div class="skill-item"><i class="fab fa-python"></i> Python (AI, ML, Deep Learning)</div>
+                <div class="skill-item"><i class="fab fa-js"></i> JavaScript (Web Development)</div>
+                <div class="skill-item"><i class="fas fa-mobile-alt"></i> Dart (Flutter for Mobile Apps)</div>
+                <div class="skill-item"><i class="fab fa-java"></i> Java (Backend & App Development)</div>
+                <div class="skill-item"><i class="fas fa-cogs"></i> C (Performance Optimization)</div>
+                <div class="skill-item"><i class="fas fa-database"></i> SQL (Database Management)</div>
+                <div class="skill-item"><i class="fas fa-code"></i> HTML & CSS (Frontend Development)</div>
+
+                <!-- Duplicate Items for Infinite Loop Effect -->
+                <div class="skill-item"><i class="fab fa-python"></i> Python (AI, ML, Deep Learning)</div>
+                <div class="skill-item"><i class="fab fa-js"></i> JavaScript (Web Development)</div>
+                <div class="skill-item"><i class="fas fa-mobile-alt"></i> Dart (Flutter for Mobile Apps)</div>
+                <div class="skill-item"><i class="fab fa-java"></i> Java (Backend & App Development)</div>
+                <div class="skill-item"><i class="fas fa-cogs"></i> C (Performance Optimization)</div>
+                <div class="skill-item"><i class="fas fa-database"></i> SQL (Database Management)</div>
+                <div class="skill-item"><i class="fas fa-code"></i> HTML & CSS (Frontend Development)</div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 🔥 Projects Section -->
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+    
+    <!-- Project Grid -->
+    <div class="projects-container">
+        
+        <!-- AI Health Assistant Project -->
+        <div class="project-card" onclick="openModal('aiHealth')">
+            <img src="images/ai-health.jpg" alt="AI Health Assistant">
+            <h3>AI Health Assistant</h3>
+            <p>An AI-powered system for disease diagnosis, precautions, and medication recommendations.</p>
+            <button class="github-btn">
+                <a href="https://github.com/yourusername/ai-health-assistant" target="_blank">GitHub</a>
+            </button>
+        </div>
+
+        <!-- Brain Stroke Detection Model -->
+        <div class="project-card" onclick="openModal('strokeDetection')">
+            <img src="images/stroke-model.jpg" alt="Brain Stroke Detection">
+            <h3>Brain Stroke Detection</h3>
+            <p>Deep learning model analyzing CT/MRI scans to detect strokes and classify types.</p>
+            <button class="github-btn">
+                <a href="https://github.com/yourusername/brain-stroke-detection" target="_blank">GitHub</a>
+            </button>
+        </div>
+
+        <!-- Sarcasm Detection Web App -->
+        <div class="project-card" onclick="openModal('sarcasmDetection')">
+            <img src="images/sarcasm-app.jpg" alt="Sarcasm Detection Web App">
+            <h3>Sarcasm Detection Web App</h3>
+            <p>Detects sarcasm in text and voice inputs using NLP and deep learning.</p>
+            <button class="github-btn">
+                <a href="https://github.com/yourusername/sarcasm-detection" target="_blank">GitHub</a>
+            </button>
+        </div>
+
+        <!-- Object Detection System -->
+        <div class="project-card" onclick="openModal('objectDetection')">
+            <img src="images/object-detection.jpg" alt="Object Detection System">
+            <h3>Object Detection System</h3>
+            <p>Deep learning-based model identifying and classifying objects in real-time.</p>
+            <button class="github-btn">
+                <a href="https://github.com/yourusername/object-detection" target="_blank">GitHub</a>
+            </button>
+        </div>
+        
+    </div>
+</section>
+
+<!-- 🔥 Project Details Modal -->
+<div id="projectModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+        <h3>Technologies Used:</h3>
+        <ul id="modal-tech-list"></ul>
+        <img id="modal-image" src="" alt="Project Image">
+        <button class="github-btn">
+            <a id="modal-github-link" href="#" target="_blank">GitHub</a>
+        </button>
+    </div>
+</div>
+<!-- 🔥 Certifications Section -->
+<section id="certifications">
+    <div class="container">
+        <h2 class="section-title">📜 Certifications & Achievements</h2>
+
+        <!-- 🔹 Coursera Certifications -->
+        <div class="certification-category">
+            <h3>🎓 Coursera Certifications</h3>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <h4>Course Name 1</h4>
+                    <p>Issued by: Coursera</p>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/STVRQUI54WCR" target="_blank" class="view-cert-btn">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <h4>Course Name 2</h4>
+                    <p>Issued by: Coursera</p>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/1ETESVFY6BQJ" target="_blank" class="view-cert-btn">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <h4>Course Name 3</h4>
+                    <p>Issued by: Coursera</p>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/YZRAZG3LNBA5" target="_blank" class="view-cert-btn">View Certificate</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔹 Internships -->
+        <div class="certification-category">
+            <h3>💼 Internship Certificates</h3>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <img src="images/web-dev-cert.jpg" alt="Web Development Internship Certificate">
+                    <h4>Web Development Internship</h4>
+                    <p>Issued by: [SD PRO SOLUTIONS]</p>
+                </div>
+                <div class="cert-card">
+                    <img src="images/data-analytics-cert1.jpg" alt="Data Analytics Internship Certificate">
+                    <h4>Data Analytics Internship</h4>
+                    <p>Issued by: [ICOM]</p>
+                </div>
+                <div class="cert-card">
+                    <img src="images/data-analytics-cert2.jpg" alt="Data Analytics Internship Certificate">
+                    <h4>Data Analytics Internship</h4>
+                    <p>Issued by: [ICOM Proof]</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔹 Workshops -->
+        <div class="certification-category">
+            <h3>🛠️ Workshops</h3>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <img src="images/Cloud.jpg" alt="Chip Level Testing Workshop">
+                    <h4>Cloud & DevOps Program</h4>
+                    <p>Issued by: [SWAARUSH-2024]</p>
+                </div>
+                <div class="cert-card">
+                    <img src="images/chip-level-testing.jpg" alt="Chip Level Testing Workshop">
+                    <h4>Chip Level Testing & Debugging</h4>
+                    <p>Issued by: [SWAARUSH-2024]</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔹 Value-Added Courses -->
+        <div class="certification-category">
+            <h3>📚 Value-Added Courses</h3>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <img src="images/UI.jpg" alt="UI/UX Design Certificate">
+                    <h4>UI/UX Design</h4>
+                    <p>Issued by: [Kongunadu College of Engineering and Technology]</p>
+                </div>
+                <div class="cert-card">
+                    <img src="images/Data.jpg" alt="Data Analysis with Python Certificate">
+                    <h4>Data Analysis with Python</h4>
+                    <p>Issued by: [Kongunadu College of Engineering and Technology]</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔹 NPTEL Certification -->
+        <div class="certification-category">
+            <h3>🎖️ NPTEL Online Certification</h3>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <img src="images/nptel-python-cert.jpg" alt="NPTEL Data Analytics Certificate">
+                    <h4>Data Analytics with Python</h4>
+                    <p>Issued by: NPTEL</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 🔥 Experience Section -->
+<section id="experience">
+    <div class="container">
+        <h2 class="section-title">🔥 Experience & Education</h2>
+
+        <!-- 🏢 Work Experience Timeline -->
+        <div class="experience-timeline">
+            <!-- Internship 1 -->
+            <div class="experience-card">
+                <h3>💼 Web Development Intern</h3>
+                <p><strong>Company:</strong> [SD PRO SOLUTIONS]</p>
+                <p><strong>Duration:</strong> Aug 2023 - Dec 2023</p>
+                <p>Developed responsive web applications, optimized UI/UX, and integrated APIs for improved user engagement.</p>
+            </div>
+
+            <!-- Internship 2 -->
+            <div class="experience-card">
+                <h3>📊 Data Analytics Intern</h3>
+                <p><strong>Company:</strong> [ICOM]</p>
+                <p><strong>Duration:</strong> March 2024 - Aug 2024</p>
+                <p>Analyzed large datasets, created interactive dashboards, and provided actionable business insights.</p>
+            </div>
+        </div>
+
+        <!-- 🎓 Education Timeline -->
+        <div class="education-section">
+            <h2>🎓 Education</h2>
+            <div class="education-card">
+                <h3>Bachelor of Engineering (BE)</h3>
+                <p><strong>University:</strong> [Kongunadu College of Engineering and Technology]</p>
+                <p><strong>CGPA:</strong> 7.0 / 10</p>
+                <p>I'm currently purusing 3rd Year</p>
+                <p>Specialization: Computer Science & Engineering</p>
+                <p><em>“Grades may open doors, but skills break barriers!”</em></p>
+            </div>
+        </div>
+
+        <!-- 💡 Motivational Speech -->
+        <div class="motivation-box">
+            <h3>💡 Talent Over Marks!</h3>
+            <p>“Low scores don't define intelligence. Skills, creativity, and persistence do!  
+            Many industry leaders weren’t top scorers, but they mastered their craft.  
+            I believe in my skills, and that’s my superpower!”</p>
+        </div>
+
+        <!-- 📥 Resume Download Button -->
+        <div class="resume-download">
+            <a href="resume.pdf" download class="btn-download">📥 Download My Resume</a>
+        </div>
+    </div>
+</section>
+<!-- 🔥 Contact Me Section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2>📩 Contact Me</h2>
+        
+        <div class="contact-container">
+            <!-- Left Side: Contact Form -->
+            <div class="contact-form">
+                <h3>Send Me a Message</h3>
+                <form action="mailto:madhavansiva27@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Username:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit" class="send-btn">Send</button>
+                </form>
+            </div>
+
+            <!-- Right Side: Contact Details -->
+            <div class="contact-details">
+                <h3>My Contact Details</h3>
+                <p><strong>Name:</strong> Madhavan S</p>
+                <p><strong>Phone:</strong> <a href="tel:9384465234">9384465234</a></p>
+                <p><strong>Email:</strong> <a href="mailto:madhavansiva27@gmail.com">madhavansiva27@gmail.com</a></p>
+                <p><strong>Address:</strong> Musiri, Tiruchirappalli District, Tamil Nadu, India</p>
+
+                <!-- Google Map -->
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.010438988136!2d78.4357654749392!3d10.944626755135095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf3227c2c3a8d%3A0x1234567890abcdef!2sMusiri%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sin!4v1709654321123" 
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+
+                <!-- Hire Me Button -->
+                <button class="hire-btn" onclick="window.location.href='mailto:madhavansiva27@gmail.com?subject=Hire%20Me&body=I%20am%20interested%20in%20working%20with%20you.%20Let%27s%20discuss%20opportunities!'">
+                    Hire Me
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 🌍 Future Ambitions Section -->
+<section id="future-ambitions" class="future-section">
+    <div class="container">
+        <!-- Headline -->
+        <h2 class="future-heading">My Vision: A Startup That Changes the World!</h2>
+
+        <!-- Hero Section (With Smooth Animation) -->
+        <div class="hero-animation">
+            <p class="vision-text">
+                "I don’t let papers decide my future – I create my own path!"
+            </p>
+        </div>
+
+        <!-- Video (Your Future Imagination & Inspiration) -->
+        <div class="video-container">
+            <video controls>
+                <source src="future-vision.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Startup Roadmap -->
+        <div class="roadmap">
+            <h3>My Startup Roadmap</h3>
+            <ul>
+                <li>🎯 Step 1: Build expertise in AI & Innovation.</li>
+                <li>💡 Step 2: Work with industry leaders like Google & SpaceX.</li>
+                <li>🏆 Step 3: Develop groundbreaking tech solutions.</li>
+                <li>🌍 Step 4: Launch my own startup & make an impact!</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+    <!-- 🔹 Bootstrap JS & Custom JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
